@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 600vh; /* 6 times the height of the viewport to fit all divs */
+}
+
+.full-page-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+}
+
+#div1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img1.jpeg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#div2 { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #16BBB3; 
+}
+
+#div3 { 
+    background-color: #3357ff;
+    display: flex;
+
+}
+
+.left-div3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.right-div3{
+    flex: 1;
+    background-color: lightblue;
+            padding: 20px;
+            margin-left: auto;
+            height: 100%;
+                background: url('./assets/img2.webp') no-repeat center center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+
+/* #div3 { 
+    background-color: #3357ff;
+    display: flex;
+
+}
+
+ .left-div3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.left-div3 p{
+    font-size: medium;
+}
+
+.right-div3 {
+    flex: 1; 
+    background: url('./assets/img2.webp') no-repeat center center;
+    background-size: cover;
+} */
+
+#div4 {
+     background-color: #16BBB3; 
+     display: flex; 
+     flex-direction: column;
+
+}
+
+#div4 .boxes{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div4 .boxes .box{
+    border: 2px solid sandybrown;
+    margin: 20px;
+    text-align: center;
+    padding: 0 10px;
+    height: 400px;
+}
+
+.boxes h4{
+    text-transform: uppercase;
+}
+
+.boxes .box p{
+    font-size: large;
+}
+
+#div5 {
+     background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+}
+
+#div5 .boxes{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#div5 h2{
+    color: sandybrown;
+}
+
+#div5 .boxes .box{
+    border: 2px solid sandybrown;
+    margin: 20px;
+    text-align: center;
+    padding: 0 10px;
+    height: 400px;
+    width: 300px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div5 .boxes #box1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#div5 .boxes #box2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#div5 .boxes #box3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img5.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#div6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img6.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#div6 .footer{
+    background: sandybrown;
+    height: 150px;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+
+#div6 .footer .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#div6 .footer .left-2{
+    margin-left: 20px;
+}
+
+#div6 .footer .right{
+    margin-left: auto;
+}
